@@ -1,0 +1,38 @@
+name: 📚 README 인덱스 자동 업데이트
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '**/*.md'
+      - '!README.md'
+
+permissions:
+  contents: write
+
+jobs:
+  update-index:
+    name: README 인덱스 업데이트
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 저장소 체크아웃
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Python 설정
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: README 인덱스 재생성
+        run: python .github/scripts/update_readme.py
+
+      - name: 변경사항 커밋
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "docs: README 인덱스 자동 업데이트 [skip ci]"
+          file_pattern: README.md
+          commit_user_name: "github-actions[bot]"
+          commit_user_email: "github-actions[bot]@users.noreply.github.com"
