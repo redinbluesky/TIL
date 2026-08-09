@@ -1,0 +1,52 @@
+name: 📝 TIL 메모 등록
+description: 오늘 학습한 내용을 자유롭게 기록하세요. AI 에이전트가 정제된 문서로 변환합니다.
+title: "[TIL] "
+labels: ["til-draft"]
+body:
+  - type: input
+    id: topic
+    attributes:
+      label: 주제 (Topic)
+      description: 학습한 주제를 간략히 입력하세요.
+      placeholder: "예: Python asyncio 동작 원리"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: category
+    attributes:
+      label: 카테고리 (Category)
+      description: 가장 적합한 카테고리를 선택하세요.
+      options:
+        - language
+        - framework
+        - database
+        - devops
+        - algorithm
+        - network
+        - security
+        - tools
+        - etc
+    validations:
+      required: true
+
+  - type: textarea
+    id: raw_note
+    attributes:
+      label: 학습 내용 (Raw Note)
+      description: 파편화된 메모, 링크, 코드 조각 등 자유 형식으로 기록하세요.
+      placeholder: |
+        - asyncio는 단일 스레드 이벤트 루프 기반
+        - await 키워드로 코루틴 일시 중단
+        - https://docs.python.org/3/library/asyncio.html
+    validations:
+      required: true
+
+  - type: textarea
+    id: references
+    attributes:
+      label: 참고 자료 (References)
+      description: 참고한 링크나 자료를 나열하세요. (선택 사항)
+      placeholder: "https://..."
+    validations:
+      required: false
