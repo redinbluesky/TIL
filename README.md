@@ -4,7 +4,7 @@
 이 저장소의 모든 기록은 **AI 에이전트**를 통해 구조화되고 자동 정리됩니다.
 
 모든 학습 과정은 개발자(PArk Juyeong)[redinbluesky@gmail.com)이 학습한 후 공유하는 것을 바탕으로 합니다.
-
+   - 유튜브 채널 [📺 [후츠릿]](https://www.youtube.com/@chutzrit)을 참조하여 생성되었습니다.
 ---
 
 ### 📂 지식 카테고리
