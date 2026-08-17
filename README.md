@@ -11,8 +11,6 @@
 
 <details>
   <summary style="font-size: 16px;"><strong id="Heremes">Heremes (전체 보기)</strong></summary>
-   
-  - [2026-03-17-디스코드-HTTP-Request-폴링-방법](n8n/2026-03-17-디스코드-HTTP-Request-폴링-방법.md)
   - [2026-08-17-AI-에이전트를-활용한-학습-기록-워크플로우.md](Heremes/2026-08-17-AI-에이전트를-활용한-학습-기록-워크플로우.md)
 </details>
 <br>
