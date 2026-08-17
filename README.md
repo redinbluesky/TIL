@@ -16,15 +16,15 @@
 <br>
 
 <details>
-  <summary style="font-size: 16px;"><strong id="Codex">Codext (전체 보기)</strong></summary>
-  - [2026-08-17-OpenAI-Codex-아이디어에서-배포까지-입문.md](./Codext/2026-08-17-OpenAI-Codex-아이디어에서-배포까지-입문.md)
+  <summary style="font-size: 16px;"><strong id="Claude">Claude (전체 보기)</strong></summary>
 </details>
 <br>
 
 <details>
-  <summary style="font-size: 16px;"><strong id="Codex">Codext (전체 보기)</strong></summary>
-
+  <summary style="font-size: 16px;"><strong id="Codext">Codext (전체 보기)</strong></summary>
+  - [2026-08-17-OpenAI-Codex-아이디어에서-배포까지-입문.md](./Codext/2026-08-17-OpenAI-Codex-아이디어에서-배포까지-입문.md)
 </details>
+<br>
 
 ---
 
@@ -57,11 +57,8 @@
 이 저장소는 AI에 기반한 **AI 워크플로우**로 운영됩니다.
 
 1. 메모 감지: 파편화된 학습 내용을 AI 에이전트가 감지합니다.
-
 2. 지능형 정제: AI가 기술적 사실 관계를 검증하고, 표준화된 Markdown 형식으로 문서 초안을 작성합니다.
-
 3. 인간 검토 (Human Review): 제가 초안의 내용을 직접 검토하고 수정하여 기록의 '진실성'과 '정확성'을 최종 승인합니다.
-
 4. 자동 기록: 승인이 완료된 문서만 GitHub에 자동 커밋되며, 본 README의 인덱스가 업데이트됩니다.
 
 단순한 기록을 넘어 학습의 질을 높이는 '기록의 지능화'를 지향합니다.
