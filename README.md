@@ -19,6 +19,9 @@
 
 <details>
   <summary style="font-size: 16px;"><strong id="Claude">Claude (전체 보기)</strong></summary>
+  
+  - [2026-08-18__클로드-디자인-시스템-활용법.md](Claude/2026-08-18__클로드-디자인-시스템-활용법.md)
+  
 </details>
 <br>
 
@@ -26,6 +29,7 @@
   <summary style="font-size: 16px;"><strong id="Codext">Codext (전체 보기)</strong></summary>
   
   - [2026-08-17-OpenAI-Codex-아이디어에서-배포까지-입문.md](Codext/2026-08-17-OpenAI-Codex-아이디어에서-배포까지-입문.md)
+  - [2026-08-18__피그마-디자인-시스템-워크플로우.md](Codext/2026-08-18__피그마-디자인-시스템-워크플로우.md)
   
 </details>
 <br>
